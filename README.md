@@ -24,6 +24,8 @@ Run ``speech_to_text_using_wav2vec.mlx`` to perform speech-to-text conversion on
 
 You can step through the script to examine the structure of the wav2vec 2.0 model.
 
+You can also use the wav2vec.m file as portable implementation of the wav2vec 2.0 model.
+
 ## Network Details
 The model provided in this example corresponds to the inference-only wav2vec 2.0 base model with the 960 hours finetuning split. It was trained using the LibriSpeech dataset [[2]](#References).
 The wav2vec 2.0 inference path consists of a feature encoder, a positional encoder, a context network, and a decoder. You can step through the ``speech_to_text_using_wav2vec.mlx`` file to examine the structure of each module.
