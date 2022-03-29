@@ -24,7 +24,7 @@ Run ``speech_to_text_using_wav2vec.mlx`` to perform speech-to-text conversion on
 
 You can step through the script to examine the structure of the wav2vec 2.0 model.
 
-You can also use the ``wav2vec.m`` file as a portable implementation of the wav2vec 2.0 model.
+You can also use the ``wav2vec.p`` file as a portable implementation of the wav2vec 2.0 model.
 ![portable image](images/wav2vecPortable.png)
 
 ## Network Details
